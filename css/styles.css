@@ -10,6 +10,8 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+ @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 :root {
   --bs-blue: #1D809F;
   --bs-indigo: #6610f2;
@@ -11101,6 +11103,20 @@ footer.footer .social-link:hover {
 .service-icon {
   background-color: #fff;
   color: #1D809F;
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  line-height: 7.5rem;
+  font-size: 2.25rem;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
   height: 7rem;
   width: 7rem;
   display: block;
